@@ -39,4 +39,19 @@ sed -i 's|HOSTNAME=localhost.localdomain|$your_domain_name|g' /etc/hosts
 hostname $your_domain_name 
 ```
 
+## dns tools for centos##
+* bind-utils
+* setup and usage
+```shell
+yum install -y bind-tuils
+dig $domain_name
+```
+
+
+* nscd
+* setup and usage
+```shell
+yum install -y nscd
+nscd -i hosts
+```
 
