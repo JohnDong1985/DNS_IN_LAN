@@ -57,6 +57,7 @@ nscd -i hosts
 
 ## bind your eth0 with a static ip##
 * exapmle:
+```shell
 DEVICE=eth0
 TYPE=Ethernet
 ONBOOT=yes
@@ -67,3 +68,4 @@ GATEWAY=192.168.212.2
 BROADCAST=192.168.212.255
 NETWORK=192.168.212.0
 DNS1=192.168.212.174
+```
