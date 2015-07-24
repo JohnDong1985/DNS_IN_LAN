@@ -55,3 +55,15 @@ yum install -y nscd
 nscd -i hosts
 ```
 
+## bind your eth0 with a static ip##
+* exapmle:
+DEVICE=eth0
+TYPE=Ethernet
+ONBOOT=yes
+NM_CONTROLLED=yes
+BOOTPROTO=static
+IPADDR=192.168.212.173
+GATEWAY=192.168.212.2
+BROADCAST=192.168.212.255
+NETWORK=192.168.212.0
+DNS1=192.168.212.174
