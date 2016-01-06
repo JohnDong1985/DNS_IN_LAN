@@ -35,7 +35,6 @@ netstat -tunlp | grep 53
 ## configure your other host in lan##
 ```shell
 sed -i 's|HOSTNAME=localhost.localdomain|$your_domain_name|g' /etc/sysconfig/network
-sed -i 's|HOSTNAME=localhost.localdomain|$your_domain_name|g' /etc/hosts
 hostname $your_domain_name 
 ```
 
